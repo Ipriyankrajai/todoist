@@ -1,0 +1,23 @@
+{
+  "name": "todoist",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^3.0.3",
+    "dotenv": "^16.4.5",
+    "inquirer": "^10.1.0",
+    "tsx": "^4.16.2"
+  }
+}
